@@ -7,8 +7,8 @@ import requests
 from .serializers import CreateUserSerializer
 
 
-CLIENT_ID = 'oauth2'
-CLIENT_SECRET = 'django-oauth2'
+CLIENT_ID = 'JcsVYpFTJ7OSB76SlJiRuPrMpSkq8xOzFMbSRolw'
+CLIENT_SECRET = 'H0CC6B6Uiij0tVfTANaahRdbDaQRMtq8yDtxWxKeri6h4LqvkjowNvkJWlnc0vf7z032tRt99t4PZEgyBTG5vggPlEjdrHqVAHWqVi6hXqd4mkHaAjwlYYfNTTYKHQff'
 
 
 
