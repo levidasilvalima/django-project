@@ -21,7 +21,7 @@ Now you can perform requests for user and for unicorn. There are three types of 
 ### Register request
 
 ```
-curl -d "username=<username>&password=<password" "local:8000/authentication/register/"
+curl -d "username=<username>&password=<password>" "localhost:8000/authentication/register/"
 ```
 The respose will be like
 
@@ -39,7 +39,7 @@ The respose will be like
 ### Login request
 
 ```
-curl -d "username=<username>&password=<password" "localhost:8000/authentication/token/"
+curl -d "username=<username>&password=<password>" "localhost:8000/authentication/token/"
 ```
 
 The response will be the same as the register response
