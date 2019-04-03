@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',    
     'users',
+    'unicorn',
     'rest_framework',
     'oauth2_provider'
 ]
@@ -132,3 +133,5 @@ OAUTH2_PROVIDER = {
     'SCOPES': {'read': 'Read scope', 'write': 'Write scope', 'groups': 'Access to your groups'},
     'ACCESS_TOKEN_EXPIRE_SECONDS': 36000,
 }
+
+ALLOWED_HOSTS = ['localhost']
