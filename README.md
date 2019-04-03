@@ -1,4 +1,4 @@
-# Django Projectt
+# Django Project
 
 A Django Oauth2 authentication server 
 
