@@ -69,7 +69,7 @@ The last one will be about unicorn
 ### Crete unicorn request
 
 ```
-curl -H "Authorization: Bearer <token>" -d "name=<name>&age=<age>" 0.0.0.0:8000/v1/unicorn/
+curl -H "Authorization: Bearer <token>" -d "name=<name>&age=<age>" localhost:8000/v1/unicorn/
 ```
 
 The response will be like
@@ -79,3 +79,13 @@ The response will be like
     age: "<age>"
 }
 ```
+
+### Get all unicorns request
+
+```
+curl localhost:8000/v1/unicorn/
+```
+
+
+
+The last part is incomplete because the unicorn model isn't authenticated. Go ahead and test request any unicorn request without token.
